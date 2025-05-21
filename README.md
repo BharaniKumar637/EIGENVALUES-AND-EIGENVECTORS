@@ -19,12 +19,13 @@ End the program.
 #Developed by: BHARANI KUMAR J
 #RegisterNumber:212224240024
 import numpy as np
-A = np.array([[2,2],[1,3]])
-B,C = np.linalg.eig(A)
-print(f"Eigen values are {B} and Eigen Vectors are {C}")
+A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+values,vectors=np.linalg.eig(A)
+print("Eigen values are",values,"and","Eigen Vectors are",vectors)
 ```
 ## Output:
-![Screenshot 2023-12-24 221726](https://github.com/gauthamkrishna7/EIGENVALUES-AND-EIGENVECTORS/assets/141175025/1f19c134-2102-4cc7-bd2c-413f3c036ef7)
+![image](https://github.com/user-attachments/assets/894e7926-aaad-4597-aaf7-4da2f55e6e6e)
+
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
